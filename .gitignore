@@ -1,0 +1,79 @@
+# Environment variables
+.env
+.env*.local
+client-app/.env
+server/.env
+
+# Dependencies
+node_modules/
+client-app/node_modules/
+server/node_modules/
+
+# Expo (client-app)
+client-app/.expo/
+client-app/dist/
+client-app/web-build/
+client-app/expo-env.d.ts
+
+# Native folders (client-app)
+client-app/.kotlin/
+client-app/ios/
+client-app/android/
+client-app/*.orig.*
+client-app/*.jks
+client-app/*.p8
+client-app/*.p12
+client-app/*.key
+client-app/*.mobileprovision
+
+# Metro (client-app)
+client-app/.metro-health-check*
+
+# Debug logs
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+client-app/npm-debug.*
+client-app/yarn-debug.*
+client-app/yarn-error.*
+server/npm-debug.*
+server/yarn-debug.*
+server/yarn-error.*
+
+# OS files
+.DS_Store
+*.pem
+Thumbs.db
+Desktop.ini
+
+# TypeScript
+*.tsbuildinfo
+client-app/*.tsbuildinfo
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+.classpath
+
+# Example/Template files
+client-app/app-example/
+
+# Build outputs
+build/
+dist/
+out/
+*.log
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
